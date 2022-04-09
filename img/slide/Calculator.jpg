@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)file:///C:/Users/Yamini%20kirange/Desktop/Web%20designing/Project/Claculator.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Calculator</title>
+	<style>
+*{
+
+	padding: 0px;
+	margin:0px;
+
+}
+	.container{
+		margin:auto;
+		width: 400px;
+		height: 500px;
+
+
+	}
+
+	form{
+		margin-top:100px;
+		padding-top: 50px;
+		text-align: center;
+		width: 400px;
+		height: 500px;
+		background-color: black;
+		border-radius: 10%;
+		box-shadow: 5px 5px 4px  black;
+
+
+
+
+	}
+	.button{
+		font-size: 30px;
+		width: 60px;
+		height: 60px;
+		margin:10px;
+		border-radius: 50%;
+		background-color: white;
+		color: black;
+	}
+	.button:hover{
+		background-color: black;
+		color: white;
+	}
+	#display{
+		font-size: 25px;
+		background-color: white;
+		width:350px;
+		height: 35px;
+		color: black;
+		border: 0px;
+		border-bottom: 1px solid black;
+		border-radius: 5px;
+		text-align: right;
+
+
+	}
+	.clear{
+		font-size: 25px;
+		background-color: white;
+		width:350px;
+		height: 35px;
+		color: black;
+		margin-top: 20px;
+		border-radius: 20px;
+	}
+	.clear:hover{
+		background-color: black;
+		color: white;
+	}
+	</style>
+</head>
+<body>
+<div class="container">
+	<form name="cal">
+	<input type="text" name="display" id="display" placeholder="0">	<br><br>
+	<input type="button" class="button" value="7" onclick="cal.display.value +=&#39;7&#39;">
+	<input type="button" class="button" value="8" onclick="cal.display.value +=&#39;8&#39;">
+	<input type="button" class="button" value="9" onclick="cal.display.value +=&#39;9&#39;">
+	<input type="button" class="button" value="/" onclick="cal.display.value +=&#39;/&#39;"><br>
+
+	<input type="button" class="button" value="4" onclick="cal.display.value +=&#39;4&#39;">
+	<input type="button" class="button" value="5" onclick="cal.display.value +=&#39;5&#39;">
+	<input type="button" class="button" value="6" onclick="cal.display.value +=&#39;6&#39;">
+	<input type="button" class="button" value="*" onclick="cal.display.value +=&#39;*&#39;"><br>
+
+	<input type="button" class="button" value="1" onclick="cal.display.value +=&#39;1&#39;">
+	<input type="button" class="button" value="2" onclick="cal.display.value +=&#39;2&#39;">
+	<input type="button" class="button" value="3" onclick="cal.display.value +=&#39;3&#39;">
+	<input type="button" class="button" value="-" onclick="cal.display.value +=&#39;-&#39;"><br>
+
+	<input type="button" class="button" value="0" onclick="cal.display.value +=&#39;0&#39;">
+	<input type="button" class="button" value="." onclick="cal.display.value +=&#39;.&#39;">
+	<input type="button" class="button" value="+" onclick="cal.display.value +=&#39;+&#39;">
+	<input type="button" class="button" value="=" onclick="cal.display.value =eval(cal.display.value)" style="background-color: tomato"><br>
+	<input type="button" value="Clear All" onclick="cal.display.value =&#39;&#39;" class="clear">
+	</form>
+
+
+
+</div>
+
+
+</body></html>

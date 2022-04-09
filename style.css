@@ -1,0 +1,497 @@
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+html,body{
+  font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+
+}
+
+.logo{
+	margin-bottom: 15px;
+	margin-left: 30px;
+	width: 150px;
+	height: 70px;
+
+}
+
+
+nav{
+	position: fixed;
+	font-family: 'Ubuntu', sans-serif;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	background: #404040;
+	transition: all 0.3s ease;
+
+}
+.scrolled{
+	background: #24282b !important;
+
+}
+nav li a{
+	width: 120px;
+	height: 50px;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	transition: 0.5s all ease;
+	display: block;
+
+}
+
+
+nav ul li{
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+		list-style: none;
+	margin-bottom: 5px;
+	text-align: center;
+}
+nav ul li a:hover{
+	color: orange;
+	box-shadow: 5px 5px 10px #444f57;
+	font-size: 20PX;
+	border-radius: 10px;
+	padding-top: 0px;
+
+}
+
+.carousel-item::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #000;
+	opacity:0.8;
+}
+
+
+ .carousel-caption{
+ 	bottom: 250px;
+ }
+  .carousel-caption h2{
+  	font-family: cursive;
+  	font-size: 45px;
+  	margin-bottom: 30px;
+  	color: #ffb03b;
+  	font-weight: 700;
+
+}
+  .carousel-caption p{
+  	width: 200px;
+  	font-size: 15px;
+  	  margin: 0 auto 30px auto;
+}
+  .carousel-caption a{
+  	background:#ff8566;
+  	padding:10px 25px 10px 25px;
+  	color:white;
+  	border-radius: 30px;
+  	text-decoration: none;
+  	transition: 0.5s ease all;
+
+}
+  .carousel-caption a:hover{
+  	background: #ff4d4d;
+  	color: black;
+
+}
+#why-us{
+	width: 100%;
+	height: 100%;
+	margin-top: 100px;
+}
+#why-us .box{
+	height: 300px;
+	margin-top: 100px;
+	  padding: 50px 30px;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out 0.3s;
+  
+}
+#why-us .box span{
+	display: block;
+	font-size: 28px;
+	font-weight: 700;
+	color:#ff8080;
+	}
+#why-us .box h4{
+	font-size: 24px;
+	font-family: 'Pacifico', cursive;
+	font-weight: 600;
+  	padding: 0;
+  	margin: 20px 0;
+}
+#why-us .box p{
+	font-size: 15px;
+	font-family: 'Pacifico', cursive;
+	font-weight: 600;
+	  margin: 0;
+  	padding: 0;
+}
+#why-us .box:hover{
+	 padding: 30px 30px 90px 30px;
+	background: black;
+	color: #fff;
+}
+#why-us .section-title{
+	width: 800px;
+	height: 200px;
+	text-align: center;
+	margin: auto;
+
+}
+#why-us .section-title h2{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 820;
+  font-family: Monotype Corsiva;
+}
+#why-us .section-title p{
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+
+}
+#why-us .section-title span{
+	 color: orange;
+}
+    <!-- ======= Menu Section ======= -->
+#menu{
+	width: 100%;
+	height: 100%;
+
+}
+.menu{
+	width: 100%;
+	height: 1000px;
+	overflow: hidden;
+	background-color: black;
+	margin-bottom: 0;
+}
+
+#menu .section-title h2{
+	margin-top: 120px;
+	text-align: center;
+	font-size: 38px;
+	font-family: cursive;
+	font-style: italic;
+	font-weight: 700;
+  color: #ff9b08;
+}
+#menu-filters{
+	text-align: center;
+	margin-top: 25px;
+
+}
+
+#menu-filters li{
+	cursor: pointer;
+  padding: 15px 20px 15px 20px;
+  margin:3px 5px 3px 5px;
+  line-height: 1px;
+	list-style: none;
+	display: inline-block;
+	font-size: 17px;
+	font-weight: 700;
+	font-family: calibri;
+	color: #ff9b08;
+	border: 2px solid #ffb03b;
+	border-radius: 50px;
+  transition: all ease-in-out 0.3s;
+
+}
+#menu-filters li:hover,#menu-filters li.filter-active{
+	color:white;
+	background: #ff9b08;
+
+}
+#menu .menu-content ul li{
+	overflow: hidden;
+	position: relative;
+	margin-top: 30px;
+	justify-content: space-between;
+	color: darkgray;
+	display: flex;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #ff9b08;
+	font-weight: 700;
+	margin-right: 50px;
+
+}
+#menu .menu-content::after {
+  content: ".......................................................""................";
+  position: absolute;
+  bottom: 20px;
+ left: 120px;
+ opacity: 0.4;
+  z-index: 1;
+
+}
+#menu .menu-content ul li {
+  padding-right: 10px;
+  position: relative;
+  z-index: 3;
+  font-weight: 700;
+  color: #ff9b08;
+}
+#menu .menu-content span {
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  font-weight: 600;
+}
+/*--------------------------------------------------------About Us---------------------------*/
+.about{
+	background: black;
+	width: 100%
+	height:100%;
+	margin-top: 80px;
+	
+
+}
+
+
+
+
+.text-blog{
+			width: 100%;
+           margin-top: 50px;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+           
+        }
+.about-img img{
+        	margin-right:8px;
+        	margin-bottom: 40px;
+        }
+
+
+ .section-title h2{
+ 		padding:50px;
+ 		font-family: cursive;
+ 		font-size: 48px;
+ 		font-weight: 700;
+ 		color: #ffb03b;
+ 		text-align: center;
+ 		
+ 	
+ }
+ .text-blog p{
+ 		margin-top: 20px;
+ 		margin-left: 40px;
+ 		padding: 5px;
+ 		font-family:  pt-sens;
+ 		font-size: 20px;
+ 		text-align: justify;
+ }
+ .mission{
+
+			margin-top: 80px;
+			margin-bottom: 50px;
+            width: 800px;
+            text-align: center;
+            font-weight: bold;
+            overflow: hidden;
+
+ 			
+ }
+ .mission span{
+ 	color: #ffb03b;
+ }
+  .mission h2{
+ 		padding:0px;
+ 		font-family: cursive;
+ 		font-size: 48px;
+ 		font-weight: 700;
+ 		color: #fff;
+ 	
+ }
+ .mission p{
+ 		color: #fff;
+ 		margin-top: 10px;
+ 		padding: 0px;
+ 		font-family:  pt-sens;
+ 		font-size: 20px;
+ 		overflow: hidden;
+ 		text-align: justify;
+ }
+ /*.............Gallary Section...................*/
+
+.gallary {
+  padding-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  	box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+  	background-color:#fafbff;
+  }
+  .gallary .section-title h2{
+  	padding: 60px;
+  	font-family: cursive;
+  	font-weight: 700px;
+  	color: #ffa012;
+  	font-size: 45px;
+
+
+  }
+  
+  	
+.gallary .gallary-item img{
+	padding-top:0px;
+	box-shadow: 10px 10px 10px black;
+}
+@-webkit-keyframes myani{
+	0%{transform:rotatey(0deg);}
+	100%{transform:rotatey(180deg);}
+	}
+.gallary .gallary-item:hover img{
+	-webkit-animation:myani 1.5s linear;
+
+	}
+
+
+
+
+ /*.............Contact Section...................*/
+
+
+ .Contact{
+ 	width: 100%;
+ 	height: 100%;
+
+ }
+
+ .Contact .section-title{
+ 	text-align: center;
+ 	padding-top: 150px;
+ }
+ .Contact .contact-box i{
+  font-size: 25px;
+  color: #ffb03b;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #fff6e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+
+ }
+  .Contact .contact-box i:hover{
+  	background: #ffb03b;
+  	  color: #fff;
+
+
+  }
+
+
+ .Contact .section-title h2{
+	 font-family: cursive;
+ 	font-weight: 700;
+ 	font-size: 38px;
+ }
+ .Contact .section-title span{
+ 	color: #ffa012;
+
+ }
+ .Contact .map{
+ 	margin-top: 50px;
+ 	box-shadow: 0px 3px 15px rgba(0,0,0,0.6);
+ }
+ .Contact .contact-box{
+ 	padding: 30px;
+ 	text-align: justify;
+ 	margin-top: 50px;
+ 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+ }
+ .Contact .contact-box h4{
+  	padding: 0 0 0 60px;
+	font-size: 18px;
+  	font-weight: 600;
+  	margin-bottom: 5px;
+  	color: #404040;
+  	font-family: "Poppins", sans-serif;
+}
+  .Contact .contact-box p{
+	padding: 0 0 0 60px;
+	font-size: 14px;
+  	margin-bottom: 0;
+  	color: #808080;
+  }
+.Contact .form{
+	width: 100%;
+	height: 100%;
+  	box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+ 	padding: 30px;
+  	background: #fff;
+  	padding-bottom: 50px;
+}
+.Contact .form .form-group{
+  padding-bottom: 8px;
+}
+.Contact .form .form-control{
+	border:1px solid gray;
+}
+
+.Contact .btn{
+	margin-left: 40%;
+	padding: 10px 20px;
+	border-radius: 30px;
+	background: #ffb03b;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.Contact .btn:hover{
+	background:#ffa012; 
+
+}
+
+ footer{
+	margin: auto;
+	color: white;
+	padding: 10px 0px;
+ }
+
+ 
+
+footer h3{
+  color: #ffb03b;
+   font-family: Monotype Corsiva;
+  font-size:48px;
+  font-weight:700;
+  letter-spacing: 2px;
+  position: relative;
+  top: 10px;
+text-align: center;
+}
+footer p{
+	font-size: 15px;
+	font-family: cursive;
+	font-style: italic;
+	color: white;
+	top: 10px;
+	text-align: center;
+
+}
+footer .Copyright{
+	text-align: center;
+		color: white;
+
+  	margin: 0 0 5px 0;
+}

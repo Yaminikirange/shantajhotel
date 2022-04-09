@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu section</title>
+	 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel shantaj Website</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="jquery.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   <style>
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;600;700&display=swap');
+</style>
+
+
+
+<script>
+   	$(document).ready(function(){
+   		$('.filter').click(function(){
+   			var value = $(this).attr('data-filter');
+			
+   			if(value=='*'){
+				
+   				$('.filter-rice').show(2000);
+				$('.filter-speciality').show(2000);
+				$('.filter-paratha').show(2000);
+				
+				
+   			}
+   			else if(value=='filter-rice'){
+				$("li").removeClass("filter-active");
+				$(this).addClass('filter-active');
+				
+				
+   				$('.filter-rice').show(2000);
+				$('.filter-speciality').hide(2000);
+				$('.filter-paratha').hide(2000);
+   				//$('.menu-container').filter("."+value).show('2000');
+
+   			}
+			else if(value=='filter-paratha'){
+				$("li").removeClass("filter-active");
+				$(this).addClass('filter-active');
+				$('.filter-rice').hide(2000);
+				$('.filter-speciality').hide(2000);
+				$('.filter-paratha').show(2000);
+			}
+			else if(value=='filter-speciality'){
+				$("li").removeClass("filter-active");
+				$(this).addClass('filter-active');
+				$('.filter-rice').hide(2000);
+				$('.filter-speciality').show(2000);
+				$('.filter-paratha').hide(2000);
+			}
+   		})
+   		  		})
+
+   	
+   </script>
+<style >
+  	nav{
+  		background: #24282b;
+  	}
+  	footer{
+  		  		background: #24282b;
+
+  	}
+  </style>
+    </head>
+<body>
+<header id="header" class="fixed-top d-flex align-items-center header-transparent">
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top ">
+  <div class="container-fluid">
+
+    <a class="navbar-brand " href="#">
+      <img class="logo animate__animated animate__bounceInLeft" style="animation-delay: 0.5s;" src="img/logo1.png"></a>
+
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto  animate__animated animate__bounceInRight ">
+        <li class="nav-item mx-auto"> <a class="nav-link active" href="home.html" >Home</a></li>
+        <li class="nav-item mx-auto"><a class="nav-link  active"  href="About.html">AboutUs</a></li>
+        <li class="nav-item mx-auto"><a class="nav-link  active"  href="menu.html">Our Menu</a></li>
+        <li class="nav-item mx-auto"><a class="nav-link  active"  href="Gallary.html">Gallary</a></li>
+        <li class="nav-item mx-auto"><a class="nav-link  active"  href="contact.html">ContactUs</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+<!--.................Menu section...............-->
+<section id="menu" class="menu">
+	<div class="container">
+		<div class="section-title">
+			<h2>Check our tasty menu...</h2>
+		</div>
+		<div class="row">
+		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
+			<ul id="menu-filters">
+				<li data-filter="*" class="filter filter-active ">All</li>
+				<li data-filter="filter-rice" class="filter" >Rice</li>
+				<li data-filter="filter-paratha" class="filter">Paratha/Bhakar</li>
+				<li data-filter="filter-speciality" class="filter">Speciality</li>
+			</ul>
+		</div>
+	</div>
+			<div class="row menu-container mb-5">
+				
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Bharit <span>50/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul class><li>Dal Fry <span>70/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Dal Tadaka <span>80/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Shev bhaji <span>70/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Spe.Shev Bhaji <span>100/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Butter Shev Bhaji <span>100/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Kolhapuri Shev Bhaji <span>100/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Paneer Masala<span>100/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>butter Paneer Masala <span>120/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Kaju Masala<span>100/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Kaju Kari<span>120/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Bhendi Masala<span>70/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Mataki Masala<span>70/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Mataki Fry<span>80/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Mataki Latpat<span>90/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Bengan Masala<span>70/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-speciality">
+					<div class="menu-content">
+						<ul><li>Aalu matar<span>70/-</span></li></ul>
+					</div>		
+				</div>
+				
+				
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-paratha">
+					<div class="menu-content">
+						<ul><li>Chapati<span>7/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-paratha">
+					<div class="menu-content">
+						<ul><li>Bajari Bhakar<span>15/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-paratha">
+					<div class="menu-content">
+						<ul><li>Kalana Bhakar<span>15/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-paratha">
+					<div class="menu-content">
+						<ul><li>Sadha Paratha<span>20/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-paratha">
+					<div class="menu-content">
+						<ul><li>Aalu Paratha<span>30/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-paratha">
+					<div class="menu-content">
+						<ul><li>Masali Paratha<span>30/-</span></li></ul>
+					</div>		
+				</div><div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-paratha">
+					<div class="menu-content">
+						<ul><li>Veg Paratha<span>40/-</span></li></ul>
+					</div>		
+				</div>
+				
+				
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-rice ">
+					<div class="menu-content">
+						<ul><li>Sadha Rice (Full)<span>70/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-rice">
+					<div class="menu-content">
+						<ul><li>Sadha Rice (Half)<span>40/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-rice ">
+					<div class="menu-content">
+						<ul><li>Jira Rice (Full)<span>100/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-rice">
+					<div class="menu-content">
+						<ul><li>Jira Rice (Half)<span>50/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-rice">
+					<div class="menu-content">
+						<ul><li>Masala Rice Full<span>120/-</span></li></ul>
+					</div>		
+				</div>
+				<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-rice">
+					<div class="menu-content">
+						<ul><li>Masala Rice (Half)<span>60/-</span></li></ul>
+					</div>		
+				</div><div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 menu-item filter-rice">
+					<div class="menu-content">
+						<ul><li>Khichadi<span>100/-</span></li></ul>
+					</div>		
+				</div>
+				
+				</div>
+			</div>
+</section>
+   <footer class=" mt-5">
+     <div class="row">
+       <div class="col-12 col-sm-12 col-ms-12 col-lg-12 col-xl-12">
+        <h3>Hotel Shantaj</h3>
+        <p>Thank you for being with us.</p>
+        <div class="Copyright">
+        &copy; Copyright <strong><span>Hotel Shantaj</span></strong>. All Rights Reserved
+        </div>
+       </div>
+     </div>
+   </footer>
+
+  
+</body>
+
+</html>
