@@ -161,10 +161,9 @@ nav ul li a:hover{
   padding-top: 20px;
 }
 #why-us .section-title p{
-	text-align: center;
+	text-align: justify;
 	font-family: "Poppins", sans-serif;
-	padding-top: 20px;
-
+	padding: 20px;
 }
 #why-us .section-title span{
 	 color: orange;
