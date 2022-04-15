@@ -275,10 +275,6 @@ nav ul li a:hover{
             text-align: center;
            
         }
-.about-img img{
-        	margin-right:8px;
-        	margin-bottom: 40px;
-        }
 
 
  .section-title h2{
@@ -293,7 +289,7 @@ nav ul li a:hover{
  }
  .text-blog p{
  		margin-top: 20px;
- 		margin-left: 40px;
+ 		
  		padding: 5px;
  		font-family:  pt-sens;
  		font-size: 20px;
