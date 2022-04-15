@@ -32,7 +32,7 @@ nav{
 
 }
 .scrolled{
-	background: orange !important;
+	background: #ffb03b !important;
 
 }
 nav li a{
@@ -259,7 +259,8 @@ nav ul li a:hover{
 	background: black;
 	width: 100%
 	height:100%;
-	margin-top: 80px;
+	margin-top: 0px;
+	overflow: hidden;
 	
 
 }
@@ -278,7 +279,8 @@ nav ul li a:hover{
 
 
  .section-title h2{
- 		padding:50px;
+ 		padding:100px;
+
  		font-family: cursive;
  		font-size: 48px;
  		font-weight: 700;
