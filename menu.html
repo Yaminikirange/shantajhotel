@@ -17,7 +17,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;600;700&display=swap');
 </style>
 
+<script>
+  $(document).ready(function(){
+$(window).scroll(function(){
+  if(this.scrollY>50){
+    $('.navbar').addClass("scrolled");
+    //alert("hii");
+  }else{
+        $('.navbar').removeClass("scrolled");
 
+  }
+
+ });
+
+  })
+ 
+</script>
+ <script>
+    $(document).ready(function(){
+        $(".navbar-toggler").click(function() {
+            $("#navbarSupportedContent").css({
+                "background": "gray",
+                "text-align": "center",
+                "box-shadow": "2px 2px 5px black"
+            });
+        });
+      });
+    </script>
 
 <script>
    	$(document).ready(function(){

@@ -14,7 +14,33 @@
     <script src="bootstrap.js"></script>
     
      
-  
+  <script>
+  $(document).ready(function(){
+$(window).scroll(function(){
+  if(this.scrollY>50){
+    $('.navbar').addClass("scrolled");
+    //alert("hii");
+  }else{
+        $('.navbar').removeClass("scrolled");
+
+  }
+
+ });
+
+  })
+ 
+</script>
+ <script>
+    $(document).ready(function(){
+        $(".navbar-toggler").click(function() {
+            $("#navbarSupportedContent").css({
+                "background": "gray",
+                "text-align": "center",
+                "box-shadow": "2px 2px 5px black"
+            });
+        });
+      });
+    </script>
 
 </head>
 <body>
