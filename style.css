@@ -180,6 +180,7 @@ nav ul li a:hover{
 	overflow: hidden;
 }
 
+
 #menu .section-title h2{
 	padding-top: 100px;
 	text-align: center;
@@ -227,6 +228,7 @@ nav ul li a:hover{
 	color: #ff9b08;
 	font-weight: 700;
 	margin-right: 50px;
+	margin-bottom: 10px;
 
 }
 #menu .menu-content::after {
@@ -367,12 +369,12 @@ nav ul li a:hover{
  .Contact{
  	width: 100%;
  	height: 100%;
-
+ 	background-color: black;
  }
 
  .Contact .section-title{
  	text-align: center;
- 	padding-top: 150px;
+ 	padding-top: 100px;
  }
  .Contact .contact-box i{
   font-size: 25px;
@@ -406,14 +408,15 @@ nav ul li a:hover{
 
  }
  .Contact .map{
- 	margin-top: 50px;
+ 	margin-top: 30px;
  	box-shadow: 0px 3px 15px rgba(0,0,0,0.6);
  }
  .Contact .contact-box{
  	padding: 30px;
  	text-align: justify;
- 	margin-top: 50px;
- 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+ 	margin-top: 30px;
+ 	background-color: white;
+  	box-shadow:  2px 2px 5px white;
  }
  .Contact .contact-box h4{
   	padding: 0 0 0 60px;
@@ -432,11 +435,11 @@ nav ul li a:hover{
 .Contact .form{
 	width: 100%;
 	height: 100%;
-  	box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  	box-shadow:  2px 2px 5px white;
  	padding: 30px;
   	background: #fff;
-  	padding-bottom: 50px;
-}
+  	overflow: hidden;
+  }
 .Contact .form .form-group{
   padding-bottom: 8px;
 }
