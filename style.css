@@ -32,7 +32,7 @@ nav{
 
 }
 .scrolled{
-	background: #ffb03b !important;
+	background:#ffb03b !important;
 
 }
 nav li a{
@@ -176,15 +176,12 @@ nav ul li a:hover{
 
 }
 .menu{
-	width: 100%;
-	height: 1000px;
-	overflow: hidden;
 	background-color: black;
-	margin-bottom: 0;
+	overflow: hidden;
 }
 
 #menu .section-title h2{
-	margin-top: 120px;
+	padding-top: 100px;
 	text-align: center;
 	font-size: 38px;
 	font-family: cursive;
@@ -335,7 +332,7 @@ nav ul li a:hover{
   width: 100%;
   height: 100%;
   	box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
-  	background-color:#fafbff;
+  	background-color:black;
   }
   .gallary .section-title h2{
   	padding: 60px;
@@ -349,7 +346,7 @@ nav ul li a:hover{
   
   	
 .gallary .gallary-item img{
-	padding-top:0px;
+	padding:10px;
 	box-shadow: 10px 10px 10px black;
 }
 @-webkit-keyframes myani{
