@@ -20,7 +20,7 @@ html,body{
 }
 
 
-nav{
+.navbar{
 	position: fixed;
 	font-family: 'Ubuntu', sans-serif;
 	width: 100%;
