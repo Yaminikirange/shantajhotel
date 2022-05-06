@@ -24,6 +24,7 @@ html,body{
 	position: fixed;
 	font-family: 'Ubuntu', sans-serif;
 	width: 100%;
+	text-align: center;
 	height: 80px;
 	display: flex;
 	justify-content: space-between;
